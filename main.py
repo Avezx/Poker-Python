@@ -275,7 +275,7 @@ zmiana = random.randrange(1 , 3)
 if zmiana == 1:
     print("przeciwnik zmienia karte (tak na serio nic nie zmienia)")
 
-# na to nie warto zwracac uwagi 
+# na to nie warto zwracac uwagi
 Karta1.pop(1)
 Karta2.pop(1)
 Karta3.pop(1)
