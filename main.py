@@ -8,290 +8,87 @@ Karta2p = []
 Karta3p = []
 Karta4p = []
 Karta5p = []
-# karty do gry
+# twoje karty
 Karta1 = []
 Karta2 = []
 Karta3 = []
 Karta4 = []
 Karta5 = []
-# karta do zmiany
 Karta6 = []
 
 print("Twoje karty:")
 
-
-# wybieranie pierwszej karty z wylosowanych numerow
-owo = random.randrange(1 , 5)
+# losowe numerki!!! kto ich nie kocha?
+owo1 = random.randrange(1 , 5)
 owo2 = random.randrange(1 , 13)
-if owo == 1:
-    Karta1.insert(1, "Pik")
-elif owo == 2:
-    Karta1.insert(1, "Kier")
-elif owo == 3:
-    Karta1.insert(1, "Trefl")
-elif owo == 4:
-    Karta1.insert(1, "Karo")
-if owo2 == 1:
-    Karta1.insert(2, "AS")
-elif owo2 == 2:
-    Karta1.insert(2, "2")
-elif owo2 == 3:
-    Karta1.insert(2, "3")
-elif owo2 == 4:
-    Karta1.insert(2, "4")
-elif owo2 == 5:
-    Karta1.insert(2, "5")
-elif owo2 == 6:
-    Karta1.insert(2, "6")
-elif owo2 == 7:
-    Karta1.insert(2, "7")
-elif owo2 == 8:
-    Karta1.insert(2, "8")
-elif owo2 == 9:
-    Karta1.insert(2, "9")
-elif owo2 == 10:
-    Karta1.insert(2, "10")
-elif owo2 == 11:
-    Karta1.insert(2, "Walet")
-elif owo2 == 12:
-    Karta1.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta1.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie drugiej karty z wylosowanych numerow
 owo3 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo3 == 1:
-    Karta2.insert(1, "Pik")
-elif owo3 == 2:
-    Karta2.insert(1, "Kier")
-elif owo3 == 3:
-    Karta2.insert(1, "Trefl")
-elif owo3 == 4:
-    Karta2.insert(1, "Karo")
-if owo2 == 1:
-    Karta2.insert(2, "AS")
-elif owo2 == 2:
-    Karta2.insert(2, "2")
-elif owo2 == 3:
-    Karta2.insert(2, "3")
-elif owo2 == 4:
-    Karta2.insert(2, "4")
-elif owo2 == 5:
-    Karta2.insert(2, "5")
-elif owo2 == 6:
-    Karta2.insert(2, "6")
-elif owo2 == 7:
-    Karta2.insert(2, "7")
-elif owo2 == 8:
-    Karta2.insert(2, "8")
-elif owo2 == 9:
-    Karta2.insert(2, "9")
-elif owo2 == 10:
-    Karta2.insert(2, "10")
-elif owo2 == 11:
-    Karta2.insert(2, "Walet")
-elif owo2 == 12:
-    Karta2.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta2.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie trzeciej karty z wylosowanych numerow
-owo4 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo4 == 1:
-    Karta3.insert(1, "Pik")
-elif owo4 == 2:
-    Karta3.insert(1, "Kier")
-elif owo4 == 3:
-    Karta3.insert(1, "Trefl")
-elif owo4 == 4:
-    Karta3.insert(1, "Karo")
-if owo2 == 1:
-    Karta3.insert(2, "AS")
-elif owo2 == 2:
-    Karta3.insert(2, "2")
-elif owo2 == 3:
-    Karta3.insert(2, "3")
-elif owo2 == 4:
-    Karta3.insert(2, "4")
-elif owo2 == 5:
-    Karta3.insert(2, "5")
-elif owo2 == 6:
-    Karta3.insert(2, "6")
-elif owo2 == 7:
-    Karta3.insert(2, "7")
-elif owo2 == 8:
-    Karta3.insert(2, "8")
-elif owo2 == 9:
-    Karta3.insert(2, "9")
-elif owo2 == 10:
-    Karta3.insert(2, "10")
-elif owo2 == 11:
-    Karta3.insert(2, "Walet")
-elif owo2 == 12:
-    Karta3.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta3.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie czwartej karty z wylosowanych numerow
+owo4 = random.randrange(1 , 13)
 owo5 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo5 == 1:
-    Karta4.insert(1, "Pik")
-elif owo5 == 2:
-    Karta4.insert(1, "Kier")
-elif owo5 == 3:
-    Karta4.insert(1, "Trefl")
-elif owo5 == 4:
-    Karta4.insert(1, "Karo")
-if owo2 == 1:
-    Karta4.insert(2, "AS")
-elif owo2 == 2:
-    Karta4.insert(2, "2")
-elif owo2 == 3:
-    Karta4.insert(2, "3")
-elif owo2 == 4:
-    Karta4.insert(2, "4")
-elif owo2 == 5:
-    Karta4.insert(2, "5")
-elif owo2 == 6:
-    Karta4.insert(2, "6")
-elif owo2 == 7:
-    Karta4.insert(2, "7")
-elif owo2 == 8:
-    Karta4.insert(2, "8")
-elif owo2 == 9:
-    Karta4.insert(2, "9")
-elif owo2 == 10:
-    Karta4.insert(2, "10")
-elif owo2 == 11:
-    Karta4.insert(2, "Walet")
-elif owo2 == 12:
-    Karta4.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta4.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie piatej karty z wylosowanych numerow
-owo6 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo6 == 1:
-    Karta5.insert(1, "Pik")
-elif owo6 == 2:
-    Karta5.insert(1, "Kier")
-elif owo6 == 3:
-    Karta5.insert(1, "Trefl")
-elif owo6 == 4:
-    Karta5.insert(1, "Karo")
-if owo2 == 1:
-    Karta5.insert(2, "AS")
-elif owo2 == 2:
-    Karta5.insert(2, "2")
-elif owo2 == 3:
-    Karta5.insert(2, "3")
-elif owo2 == 4:
-    Karta5.insert(2, "4")
-elif owo2 == 5:
-    Karta5.insert(2, "5")
-elif owo2 == 6:
-    Karta5.insert(2, "6")
-elif owo2 == 7:
-    Karta5.insert(2, "7")
-elif owo2 == 8:
-    Karta5.insert(2, "8")
-elif owo2 == 9:
-    Karta5.insert(2, "9")
-elif owo2 == 10:
-    Karta5.insert(2, "10")
-elif owo2 == 11:
-    Karta5.insert(2, "Walet")
-elif owo2 == 12:
-    Karta5.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta5.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie dodatkowej karty z wylosowanych numerow
+owo6 = random.randrange(1 , 13)
 owo7 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo7 == 1:
-    Karta6.insert(1, "Pik")
-elif owo7 == 2:
-    Karta6.insert(1, "Kier")
-elif owo7 == 3:
-    Karta6.insert(1, "Trefl")
-elif owo7 == 4:
-    Karta6.insert(1, "Karo")
-if owo2 == 1:
-    Karta6.insert(2, "AS")
-elif owo2 == 2:
-    Karta6.insert(2, "2")
-elif owo2 == 3:
-    Karta6.insert(2, "3")
-elif owo2 == 4:
-    Karta6.insert(2, "4")
-elif owo2 == 5:
-    Karta6.insert(2, "5")
-elif owo2 == 6:
-    Karta6.insert(2, "6")
-elif owo2 == 7:
-    Karta6.insert(2, "7")
-elif owo2 == 8:
-    Karta6.insert(2, "8")
-elif owo2 == 9:
-    Karta6.insert(2, "9")
-elif owo2 == 10:
-    Karta6.insert(2, "10")
-elif owo2 == 11:
-    Karta6.insert(2, "Walet")
-elif owo2 == 12:
-    Karta6.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta6.insert(2, "Krol")
+owo8 = random.randrange(1 , 13)
+owo9 = random.randrange(1 , 5)
+owo10 = random.randrange(1 , 13)
+owo11 = random.randrange(1 , 5)
+owo12 = random.randrange(1 , 13)
+
+owo1p = random.randrange(1 , 5)
+owo2p = random.randrange(1 , 13)
+owo3p = random.randrange(1 , 5)
+owo4p = random.randrange(1 , 13)
+owo5p = random.randrange(1 , 5)
+owo6p = random.randrange(1 , 13)
+owo7p = random.randrange(1 , 5)
+owo8p = random.randrange(1 , 13)
+owo9p = random.randrange(1 , 5)
+owo10p = random.randrange(1 , 13)
+owo11p = random.randrange(1 , 5)
+owo12p = random.randrange(1 , 13)
+# funkcja bym nie musial kopiowac wszystkiego 10 razy
+def owos(a, b, c):
+
+    if b == 1:
+        a.insert(1, "Pik")
+    elif b == 2:
+        a.insert(1, "Kier")
+    elif b == 3:
+        a.insert(1, "Trefl")
+    elif b == 4:
+        a.insert(1, "Karo")
+    if c == 1:
+        a.insert(2, "AS")
+    elif c == 2:
+        a.insert(2, "2")
+    elif c == 3:
+        a.insert(2, "3")
+    elif c == 4:
+        a.insert(2, "4")
+    elif c == 5:
+        a.insert(2, "5")
+    elif c == 6:
+        a.insert(2, "6")
+    elif c == 7:
+        a.insert(2, "7")
+    elif c == 8:
+        a.insert(2, "8")
+    elif c == 9:
+        a.insert(2, "9")
+    elif c == 10:
+        a.insert(2, "10")
+    elif c == 11:
+        a.insert(2, "Walet")
+    elif c == 12:
+        a.insert(2, "Krolowa")
+    elif c == 13:
+        a.insert(2, "Krol")
+
+# wybieranie twoich kart z wylosowanych numerow
+q = owos(Karta1, owo1, owo2)
+qq = owos(Karta2, owo3, owo4)
+qqq = owos(Karta3, owo5, owo6)
+qqqq = owos(Karta4, owo7, owo8)
+qqqqq = owos(Karta5, owo9, owo10)
+qqqqqq = owos(Karta6, owo11, owo12)
 
 
 
@@ -416,7 +213,7 @@ if zmiana == "Y":
         sys.exit(0)
         print("error")
 
-
+# tu chyba znowu zmiana kart na str ale nie jestem pewny
 time.sleep(0.5)
 string1=""
 for i in Karta1:
@@ -462,243 +259,23 @@ time.sleep(1)
 
 
 
-
-# wybieranie pierwszej karty z wylosowanych numerow
-owo = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo == 1:
-    Karta1p.insert(1, "Pik")
-elif owo == 2:
-    Karta1p.insert(1, "Kier")
-elif owo == 3:
-    Karta1p.insert(1, "Trefl")
-elif owo == 4:
-    Karta1p.insert(1, "Karo")
-if owo2 == 1:
-    Karta1p.insert(2, "AS")
-elif owo2 == 2:
-    Karta1p.insert(2, "2")
-elif owo2 == 3:
-    Karta1p.insert(2, "3")
-elif owo2 == 4:
-    Karta1p.insert(2, "4")
-elif owo2 == 5:
-    Karta1p.insert(2, "5")
-elif owo2 == 6:
-    Karta1p.insert(2, "6")
-elif owo2 == 7:
-    Karta1p.insert(2, "7")
-elif owo2 == 8:
-    Karta1p.insert(2, "8")
-elif owo2 == 9:
-    Karta1p.insert(2, "9")
-elif owo2 == 10:
-    Karta1p.insert(2, "10")
-elif owo2 == 11:
-    Karta1p.insert(2, "Walet")
-elif owo2 == 12:
-    Karta1p.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta1p.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie drugiej karty z wylosowanych numerow
-owo3 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo3 == 1:
-    Karta2p.insert(1, "Pik")
-elif owo3 == 2:
-    Karta2p.insert(1, "Kier")
-elif owo3 == 3:
-    Karta2p.insert(1, "Trefl")
-elif owo3 == 4:
-    Karta2p.insert(1, "Karo")
-if owo2 == 1:
-    Karta2p.insert(2, "AS")
-elif owo2 == 2:
-    Karta2p.insert(2, "2")
-elif owo2 == 3:
-    Karta2p.insert(2, "3")
-elif owo2 == 4:
-    Karta2p.insert(2, "4")
-elif owo2 == 5:
-    Karta2p.insert(2, "5")
-elif owo2 == 6:
-    Karta2p.insert(2, "6")
-elif owo2 == 7:
-    Karta2p.insert(2, "7")
-elif owo2 == 8:
-    Karta2p.insert(2, "8")
-elif owo2 == 9:
-    Karta2p.insert(2, "9")
-elif owo2 == 10:
-    Karta2p.insert(2, "10")
-elif owo2 == 11:
-    Karta2p.insert(2, "Walet")
-elif owo2 == 12:
-    Karta2p.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta2.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie trzeciej karty z wylosowanych numerow
-owo4 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo4 == 1:
-    Karta3p.insert(1, "Pik")
-elif owo4 == 2:
-    Karta3p.insert(1, "Kier")
-elif owo4 == 3:
-    Karta3p.insert(1, "Trefl")
-elif owo4 == 4:
-    Karta3p.insert(1, "Karo")
-if owo2 == 1:
-    Karta3p.insert(2, "AS")
-elif owo2 == 2:
-    Karta3p.insert(2, "2")
-elif owo2 == 3:
-    Karta3p.insert(2, "3")
-elif owo2 == 4:
-    Karta3p.insert(2, "4")
-elif owo2 == 5:
-    Karta3p.insert(2, "5")
-elif owo2 == 6:
-    Karta3p.insert(2, "6")
-elif owo2 == 7:
-    Karta3p.insert(2, "7")
-elif owo2 == 8:
-    Karta3p.insert(2, "8")
-elif owo2 == 9:
-    Karta3p.insert(2, "9")
-elif owo2 == 10:
-    Karta3p.insert(2, "10")
-elif owo2 == 11:
-    Karta3p.insert(2, "Walet")
-elif owo2 == 12:
-    Karta3p.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta3p.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie czwartej karty z wylosowanych numerow
-owo5 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo5 == 1:
-    Karta4p.insert(1, "Pik")
-elif owo5 == 2:
-    Karta4p.insert(1, "Kier")
-elif owo5 == 3:
-    Karta4p.insert(1, "Trefl")
-elif owo5 == 4:
-    Karta4p.insert(1, "Karo")
-if owo2 == 1:
-    Karta4p.insert(2, "AS")
-elif owo2 == 2:
-    Karta4p.insert(2, "2")
-elif owo2 == 3:
-    Karta4p.insert(2, "3")
-elif owo2 == 4:
-    Karta4p.insert(2, "4")
-elif owo2 == 5:
-    Karta4p.insert(2, "5")
-elif owo2 == 6:
-    Karta4p.insert(2, "6")
-elif owo2 == 7:
-    Karta4p.insert(2, "7")
-elif owo2 == 8:
-    Karta4p.insert(2, "8")
-elif owo2 == 9:
-    Karta4p.insert(2, "9")
-elif owo2 == 10:
-    Karta4p.insert(2, "10")
-elif owo2 == 11:
-    Karta4p.insert(2, "Walet")
-elif owo2 == 12:
-    Karta4p.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta4p.insert(2, "Krol")
-
-
-
-
-
-
-
-
-
-
-# wybieranie piatej karty z wylosowanych numerow
-owo6 = random.randrange(1 , 5)
-owo2 = random.randrange(1 , 13)
-if owo6 == 1:
-    Karta5p.insert(1, "Pik")
-elif owo6 == 2:
-    Karta5p.insert(1, "Kier")
-elif owo6 == 3:
-    Karta5p.insert(1, "Trefl")
-elif owo6 == 4:
-    Karta5p.insert(1, "Karo")
-if owo2 == 1:
-    Karta5p.insert(2, "AS")
-elif owo2 == 2:
-    Karta5p.insert(2, "2")
-elif owo2 == 3:
-    Karta5p.insert(2, "3")
-elif owo2 == 4:
-    Karta5p.insert(2, "4")
-elif owo2 == 5:
-    Karta5p.insert(2, "5")
-elif owo2 == 6:
-    Karta5p.insert(2, "6")
-elif owo2 == 7:
-    Karta5p.insert(2, "7")
-elif owo2 == 8:
-    Karta5p.insert(2, "8")
-elif owo2 == 9:
-    Karta5p.insert(2, "9")
-elif owo2 == 10:
-    Karta5p.insert(2, "10")
-elif owo2 == 11:
-    Karta5p.insert(2, "Walet")
-elif owo2 == 12:
-    Karta5p.insert(2, "Krolowa")
-elif owo2 == 13:
-    Karta5p.insert(2, "Krol")
+# losowanie kart przeciwnika
+qp = owos(Karta1p, owo1p, owo2p)
+qqp = owos(Karta2p, owo3p, owo4p)
+qqqp = owos(Karta3p, owo5p, owo6p)
+qqqqp = owos(Karta4p, owo7p, owo8p)
+qqqqqp = owos(Karta5p, owo9p, owo10p)
 
 
 
 
 all = Karta1 + Karta2 + Karta3 + Karta4 + Karta5
-
+# zmiana kart przeciwnika ktora nic nie robi
 zmiana = random.randrange(1 , 3)
 if zmiana == 1:
     print("przeciwnik zmienia karte (tak na serio nic nie zmienia)")
 
-# kastracja i przeszczep
+# na to nie warto zwracac uwagi 
 Karta1.pop(1)
 Karta2.pop(1)
 Karta3.pop(1)
@@ -709,8 +286,6 @@ print(Karta1)
 print("Pokazywanie kart")
 print("Uklad")
 
-if Karta1 or Karta2 or Karta3 or Karta4 or Karta5 ==
 
-
-
-print()
+print(all)
+print (all.count())
